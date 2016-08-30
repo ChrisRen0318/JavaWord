@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class GuessNumWindow extends JFrame implements ActionListener {
+public class GuessNumWindow extends JFrame {
 	
 	private JButton start;
 	private JTextArea edit2;
@@ -141,9 +141,7 @@ public class GuessNumWindow extends JFrame implements ActionListener {
 		return ret;
 	}
 
-	@Override
-	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
+	
 
 	}
 
