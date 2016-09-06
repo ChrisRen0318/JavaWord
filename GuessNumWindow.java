@@ -83,9 +83,10 @@ public class GuessNumWindow extends JFrame {
 		} else {
 			//比對
 			String result = createAB(answer, text);
-			setText = (text + ":" + result + "\n");
-			sb.append(setText);
-			edit2.setText(sb.toString());
+			edit2.append(text + ":" + result + "\n");
+			// setText = (text + ":" + result + "\n");
+			// sb.append(setText);
+			// edit2.setText(sb.toString());
 			return false;
 		}
 		
